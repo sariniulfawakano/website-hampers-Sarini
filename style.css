@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fbece5;
+    color: #333;
+}
+
+.navbar {
+    background-color: #f8d7d4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #d46a6a;
+}
+
+.navbar-nav .nav-link {
+    color: #6a6a6a;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d46a6a;
+}
+
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 182, 193, 0.5)), url('hero-bg.jpg') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #d46a6a;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background-color: #d46a6a;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #b55050;
+}
+
+.menu-section {
+    padding: 3rem 1rem;
+    background-color: #fff6f2;
+}
+
+.menu-section h2 {
+    text-align: center;
+    color: #d46a6a;
+    margin-bottom: 2rem;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-title {
+    color: #d46a6a;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555;
+}
+
+.add-to-cart {
+    color: #d46a6a;
+    border-color: #d46a6a;
+    transition: all 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #d46a6a;
+    color: #fff;
+}
+
+.about-section {
+    padding: 3rem 1rem;
+    background-color: #fbece5;
+    text-align: center;
+}
+
+.contact-section {
+    padding: 3rem 1rem;
+    background-color: #fff;
+}
+
+.footer {
+    padding: 1rem;
+    background-color: #d46a6a;
+    color: #fff;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Additional Styles */
+input.form-control {
+    border: 1px solid #d46a6a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* New styles for menu separation */
+.menu-section .row {
+    margin-bottom: 2rem; /* Add space between menu items */
+}
